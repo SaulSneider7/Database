@@ -1,34 +1,10 @@
-# Caso 1: Sistema de gestión de mantenimiento y control de equipos industriales
+# CASO PRÁCTICO: Sistema de gestión de capacitaciones internas
 
-Una empresa industrial desea implementar un sistema informático para gestionar de manera integral el mantenimiento de sus equipos, ya que actualmente la información se encuentra dispersa en documentos y hojas de cálculo, lo que dificulta el control y seguimiento de las actividades realizadas.
+Una empresa mediana desea implementar un sistema informático para gestionar las capacitaciones internas que brinda a sus trabajadores, ya que actualmente la información se maneja en documentos sueltos y hojas de cálculo, lo que genera confusión y pérdida de datos históricos.
 
-La empresa cuenta con equipos industriales de distintos tipos y marcas, los cuales se encuentran asignados a áreas específicas de la planta. Cada equipo se identifica mediante un código único y se registra su fecha de adquisición y estado operativo.
+La empresa cuenta con empleados, cada uno identificado por un código interno. De cada empleado se desea registrar su nombre completo, fecha de ingreso y correo corporativo. Cada empleado pertenece a un área específica de la empresa, como Sistemas, Recursos Humanos, Producción, entre otras.
 
-Los equipos requieren mantenimientos programados y también mantenimientos correctivos cuando ocurre una falla. Cada mantenimiento realizado debe quedar registrado, indicando la fecha, el tipo de mantenimiento y una descripción del trabajo efectuado. Un mismo equipo puede recibir varios mantenimientos a lo largo del tiempo.
+La empresa organiza capacitaciones, las cuales tienen un nombre, una fecha de inicio, una fecha de fin y una modalidad (presencial o virtual). Cada capacitación es dictada por un instructor, que puede ser un trabajador de la empresa o un instructor externo. De los instructores se desea registrar su nombre y tipo de instructor (interno o externo).
 
-La empresa dispone de técnicos encargados de realizar los trabajos de mantenimiento. Un técnico puede participar en múltiples mantenimientos, y dependiendo del tipo de mantenimiento, puede intervenir uno o más técnicos en una misma actividad.
+Los empleados pueden inscribirse en varias capacitaciones, y cada capacitación puede tener varios empleados inscritos. Para cada inscripción, es importante registrar la fecha en la que el empleado se inscribió y el estado de la inscripción (inscrito, aprobado, desaprobado).
 
-Durante la realización de un mantenimiento pueden utilizarse repuestos. Cada repuesto cuenta con un código, un nombre y un stock disponible. Un mantenimiento puede requerir varios repuestos, y un mismo repuesto puede ser utilizado en distintos mantenimientos.
-
-La empresa desea contar con un sistema que permita:
-
-- Llevar el historial completo de mantenimientos por equipo
-- Saber qué técnicos participaron en cada mantenimiento
-- Controlar el uso de repuestos
-- Evitar duplicidad de información y mantener coherencia en los datos
-
-
-
-# Caso 2: Sistema de gestión académica para un instituto técnico
-
-Un instituto técnico desea implementar un sistema informático para gestionar de manera ordenada la información académica de sus estudiantes, ya que actualmente los registros se realizan de forma manual, lo que genera errores y dificultad para consultar el historial académico.
-
-El instituto cuenta con estudiantes matriculados en diferentes programas de estudio. Cada estudiante posee información personal que debe ser registrada por el sistema.
-
-Asimismo, el instituto ofrece diversos cursos, los cuales son dictados por docentes especializados. Un docente puede dictar varios cursos, y un curso puede ser dictado por distintos docentes en diferentes periodos académicos.
-
-Los estudiantes pueden matricularse en varios cursos por periodo académico, y cada curso puede tener varios estudiantes matriculados. Para cada matrícula, el sistema debe registrar el periodo académico correspondiente.
-
-Durante el desarrollo de los cursos, los docentes realizan evaluaciones y asignan calificaciones a los estudiantes. Es importante que el sistema permita mantener un historial completo de las matrículas y las calificaciones obtenidas por cada estudiante.
-
-El instituto desea que el sistema permita organizar correctamente la información académica, evitar registros duplicados y garantizar la coherencia y consistencia de los datos almacenados.
